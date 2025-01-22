@@ -36,6 +36,7 @@ export default function Login() {
           </label>
           <input
             className="login-page-login-form-email-input"
+            placeholder="Enter Your Email"
             type="email"
             id="email"
             value={email}
