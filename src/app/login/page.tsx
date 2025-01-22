@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { supabase } from "../../../utils/supabase/supabaseClient";
+import styles from "./page.module.css";
 
 export default function Login() {
   const [email, setEmail] = useState<string>("");
@@ -26,7 +27,7 @@ export default function Login() {
   };
 
   return (
-    <div style={{ maxWidth: "400px", margin: "auto", padding: "2rem" }}>
+    <div className={styles.container}>
       <h1>Login</h1>
       <form onSubmit={handleSignIn}>
         <label htmlFor="email">Email:</label>
