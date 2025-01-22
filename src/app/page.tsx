@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./main.css";
 
 export default function Home() {
@@ -9,9 +10,9 @@ export default function Home() {
       </div>
 
       <div className="home-sign-in-button-container">
-        <div className="home-sign-in-button">
-          <a href="/login">Sign In</a>
-        </div>
+        <Link href="/login">
+          <div className="home-sign-in-button">Sign In</div>
+        </Link>
       </div>
     </main>
   );
