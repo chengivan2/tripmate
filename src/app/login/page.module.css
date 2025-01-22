@@ -9,21 +9,21 @@
   color: white;
 }
 
-h1 {
+.login-page-title {
   color: white;
 }
 
-form {
+.login-page-login-form {
   display: flex;
   flex-direction: column;
 }
 
-label {
+.login-page-login-form-email-label {
   margin-bottom: 0.5rem;
   color: white;
 }
 
-input {
+.login-page-login-form-email-input {
   padding: 0.5rem;
   margin-bottom: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -32,21 +32,21 @@ input {
   color: white;
 }
 
-button {
+.login-page-login-form-submit-button {
   padding: 0.5rem;
   border: none;
   border-radius: 5px;
   background: linear-gradient(135deg, #004d00, #00cc00);
   color: white;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: ease-in-out 0.2s;
 }
 
-button:hover {
+.login-page-login-form-submit-button:hover {
   background: linear-gradient(135deg, #003300, #00b300);
 }
 
-p {
+.login-page-login-form-error-message {
   margin-top: 1rem;
   color: white;
 }

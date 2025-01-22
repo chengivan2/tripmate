@@ -28,19 +28,19 @@ export default function Login() {
 
   return (
     <div className="container">
-      <h1>Login</h1>
-      <form onSubmit={handleSignIn}>
-        <label htmlFor="email">Email:</label>
-        <input
+      <h1 className="login-page-title">Login</h1>
+      <form id="login-page-login-form" onSubmit={handleSignIn}>
+        <label className="login-page-login-form-email-label" htmlFor="email">Email:</label>
+        <input className="login-page-login-form-email-input"
           type="email"
           id="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
         />
-        <button type="submit">Send Magic Link</button>
+        <button id="login-page-login-form-submit-button" type="submit">Send Magic Link</button>
       </form>
-      {message && <p>{message}</p>}
+      {message && <p className="login-page-login-form-error-message">{message}</p>}
     </div>
   );
 }
