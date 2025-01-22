@@ -32,7 +32,7 @@
   color: white;
 }
 
-.login-page-login-form-submit-button {
+#login-page-login-form-submit-button {
   padding: 0.5rem;
   border: none;
   border-radius: 5px;
