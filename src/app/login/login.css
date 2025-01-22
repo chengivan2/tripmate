@@ -1,3 +1,13 @@
+.login-page-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  min-height: 100dvh;
+  padding: 2rem;
+}
+
 .login-page-container {
   max-width: 400px;
   margin: auto;
