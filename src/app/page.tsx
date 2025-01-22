@@ -6,7 +6,7 @@ export default function Home() {
     <main className="home-main">
       <div className="home-title-container">
         <h2 className="home-main-title">Hello, Nisena Agent. Welcome.</h2>
-        <h6 className="home-sub-title">Login to continue</h6>
+        <h4 className="home-sub-title">Login to continue</h4>
       </div>
 
       <div className="home-sign-in-button-container">
