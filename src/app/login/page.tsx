@@ -27,7 +27,7 @@ export default function Login() {
   };
 
   return (
-    <div className="container">
+    <div className="login-page-container">
       <h1 className="login-page-title">Login</h1>
       <form id="login-page-login-form" onSubmit={handleSignIn}>
         <label className="login-page-login-form-email-label" htmlFor="email">Email:</label>
