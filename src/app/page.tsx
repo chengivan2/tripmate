@@ -2,7 +2,6 @@ import "./page.module.css";
 
 export default function Home() {
   return (
-    <div className="home-container">
       <main className="home-main">
         <div className="home-title-container">
           <h2 className="home-main-title">Hello, Nisena Agent. Welcome.</h2>
@@ -13,6 +12,5 @@ export default function Home() {
           <div><a href="/login">Sign In</a></div>
         </div>
       </main>
-    </div>
   );
 }
