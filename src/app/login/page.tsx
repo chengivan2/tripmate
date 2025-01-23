@@ -36,7 +36,7 @@ export default function Login() {
           </label>
           <input
             className="login-page-login-form-email-input"
-            placeholder="Enter Your Email"
+            placeholder="Enter your Nisena work email"
             type="email"
             id="email"
             value={email}
