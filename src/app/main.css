@@ -18,6 +18,14 @@
   text-align: center;
 }
 
+.home-main-title {
+  font-size: 2.5rem;
+}
+
+.home-sub-title {
+  color: hsl(10, 89%, 66%);
+}
+
 .home-sign-in-button {
   min-width: 100%;
   outline: none;
