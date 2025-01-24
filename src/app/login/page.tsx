@@ -38,6 +38,9 @@ export default function Login() {
           </div>
         </div>
         <form id="login-page-login-form" onSubmit={handleSignIn}>
+          {message && (
+            <p className="login-page-login-form-error-message">{message}</p>
+          )}
           <label className="login-page-login-form-email-label" htmlFor="email">
             Email:
           </label>
@@ -54,9 +57,6 @@ export default function Login() {
             Send Magic Link
           </button>
         </form>
-        {message && (
-          <p className="login-page-login-form-error-message">{message}</p>
-        )}
       </div>
     </main>
   );
