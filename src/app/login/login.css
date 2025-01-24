@@ -71,6 +71,8 @@
 
 #login-page-login-form-submit-button {
   font-family: "Playwrite DE Grund";
+  font-size: .9rem;
+  letter-spacing: .5px;
   min-width: 100%;
   padding: 0.5rem;
   border: none;
@@ -86,6 +88,11 @@
 }
 
 .login-page-login-form-error-message {
-  margin-top: 1rem;
-  color: #f5f5f5;
+  margin: 1rem;
+  color: hsl(10, 89%, 66%);
+  max-width: max-content;
+  background: #0d0d0d;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: .8rem;
 }
