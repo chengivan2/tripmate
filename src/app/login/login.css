@@ -80,7 +80,7 @@
   transition: ease-in-out 0.2s;
 }
 
-.login-page-login-form-submit-button:hover {
+#login-page-login-form-submit-button:hover {
   background: linear-gradient(135deg, #003300, #00b300);
 }
 
