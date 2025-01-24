@@ -88,7 +88,7 @@
 }
 
 .login-page-login-form-error-message {
-  margin: 1rem;
+  margin: 1rem 0;
   color: hsl(10, 89%, 66%);
   max-width: max-content;
   background: #0d0d0d;
