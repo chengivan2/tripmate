@@ -45,7 +45,7 @@
 }
 
 .home-sign-in-button:hover {
-  background: linear-gradient(135deg, #56ab2f, #a8e063);
+  background: linear-gradient(135deg, hsl(10, 89%, 66%), hsl(10, 45%, 45%));
 }
 
 @media (max-width: 600px) {
