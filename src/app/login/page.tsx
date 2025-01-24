@@ -31,10 +31,10 @@ export default function Login() {
   return (
     <main className="login-page-main">
       <div className="login-page-container">
-        <div>
+        <div className="login-page-title-and-logo-container">
           <h2 className="login-page-title">Log In</h2>
           <div className="login-page-image-container">
-            <Image src={tripmate} alt="Login" width={400} height={400} />
+            <Image src={tripmate} alt="Login" width={100} height={100} />
           </div>
         </div>
         <form id="login-page-login-form" onSubmit={handleSignIn}>

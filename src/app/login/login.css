@@ -18,6 +18,28 @@
   color: #f5f5f5;
 }
 
+.login-page-title-and-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.login-page-title {
+  width: 100%;
+  text-align: center;
+  letter-spacing: .5px;
+}
+
+.login-page-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
 .login-page-title {
   color: #f5f5f5;
 }
