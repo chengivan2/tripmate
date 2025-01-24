@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { supabase } from "../../../utils/supabase/supabaseClient";
 import "./login.css";
+import Image from "next/image";
+import tripmate from "./tripmate.png";
 
 export default function Login() {
   const [email, setEmail] = useState<string>("");
@@ -29,7 +31,12 @@ export default function Login() {
   return (
     <main className="login-page-main">
       <div className="login-page-container">
-        <h1 className="login-page-title">Login</h1>
+        <div>
+          <h2 className="login-page-title">Log In</h2>
+          <div className="login-page-image-container">
+            <Image src={tripmate} alt="Login" width={400} height={400} />
+          </div>
+        </div>
         <form id="login-page-login-form" onSubmit={handleSignIn}>
           <label className="login-page-login-form-email-label" htmlFor="email">
             Email:
