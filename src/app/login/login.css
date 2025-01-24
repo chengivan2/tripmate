@@ -33,6 +33,7 @@
   width: 100%;
   text-align: center;
   letter-spacing: 0.5px;
+  color: hsl(10, 89%, 66%);
 }
 
 .login-page-image-container {
