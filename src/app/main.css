@@ -20,10 +20,12 @@
 
 .home-main-title {
   font-size: 2.5rem;
+  color: hsl(10, 89%, 66%);
+  text-align: center;
 }
 
 .home-sub-title {
-  color: hsl(10, 89%, 66%);
+  text-align: center;
 }
 
 .home-sign-in-button {
