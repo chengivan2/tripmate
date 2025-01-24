@@ -71,8 +71,8 @@
 
 #login-page-login-form-submit-button {
   font-family: "Playwrite DE Grund";
-  font-size: .9rem;
-  letter-spacing: .5px;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
   min-width: 100%;
   padding: 0.5rem;
   border: none;
@@ -94,6 +94,6 @@
   background: #181818;
   padding: 0.5rem;
   border-radius: 5px;
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-align: center;
 }
