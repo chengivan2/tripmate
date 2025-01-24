@@ -22,7 +22,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "Playwrite DE Grund", sans-serif;
+  font-family: "Playwrite DE Grund", sans-serif !important;
   min-height: 100dvh;
 }
 
