@@ -1,0 +1,68 @@
+/* General container styles */
+.onboarding-container {
+  max-width: 400px; /* Set a max width for the form */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px; /* Add padding around the container */
+  border: 1px solid #e0e0e0; /* Light border around the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-color: #ffffff; /* White background color */
+}
+
+/* Heading styles */
+.onboarding-container h1 {
+  text-align: center; /* Center the heading */
+  font-size: 24px; /* Font size for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  color: #333; /* Dark color for the heading */
+}
+
+/* Form label styles */
+.onboarding-container label {
+  display: block; /* Make labels block elements */
+  margin-bottom: 5px; /* Space below labels */
+  font-weight: 600; /* Semi-bold font for labels */
+  color: #555; /* Slightly lighter color for labels */
+}
+
+/* Input field styles */
+.onboarding-container input[type="text"] {
+  width: 100%; /* Full width for input fields */
+  padding: 10px; /* Padding inside input fields */
+  margin-bottom: 15px; /* Space below input fields */
+  border: 1px solid #ccc; /* Light border for input fields */
+  border-radius: 4px; /* Rounded corners for input fields */
+  font-size: 16px; /* Font size for input text */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* Input focus styles */
+.onboarding-container input[type="text"]:focus {
+  border-color: #0070f3; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Button styles */
+.onboarding-container button {
+  width: 100%; /* Full width for the button */
+  padding: 10px; /* Padding inside the button */
+  background-color: #0070f3; /* Primary color for the button */
+  color: white; /* Text color for the button */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners for the button */
+  font-size: 16px; /* Font size for button text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+.onboarding-container button:hover {
+  background-color: #005bb5; /* Darker shade on hover */
+}
+
+/* Loading text styles */
+.onboarding-container p {
+  text-align: center; /* Center loading text */
+  font-size: 18px; /* Font size for loading text */
+  color: #666; /* Color for loading text */
+}
