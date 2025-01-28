@@ -3,6 +3,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { supabase } from "../../../utils/supabase/supabaseClient";
+import "./dashboard.css"
 
 const Dashboard: React.FC = () => {
   const [user, setUser] = useState<any>(null);
