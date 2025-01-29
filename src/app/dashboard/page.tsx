@@ -3,7 +3,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { supabase } from "../../../utils/supabase/supabaseClient";
-import "./dashboard.css"
+import "./dashboard.css";
 
 const Dashboard: React.FC = () => {
   const [user, setUser] = useState<any>(null);
@@ -26,7 +26,7 @@ const Dashboard: React.FC = () => {
       <div>
         <p>Hello, {user?.user_metadata?.given_name || user?.email}</p>
       </div>
-      
+
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <div
           style={{ width: "30%", padding: "10px", border: "1px solid #ccc" }}
