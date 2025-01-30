@@ -14,10 +14,10 @@
 .login-page-container {
   min-width: 60dvw;
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: hsla(0, 0%, 100%, 0.1);
   border-radius: 0.5rem;
   backdrop-filter: blur(10px);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px hsla(0, 0%, 0%, 0.1);
 }
 
 .login-page-title-and-logo-container {
