@@ -4,8 +4,8 @@
   padding: 20px;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  background-color: #ffffff;
+  box-shadow: 0 4px 12px hsla(0, 0.00%, 0.00%, 0.10);
+  background-color:hsl(0, 0.00%, 96.10%);
 }
 
 .onboarding-container h1 {
@@ -33,14 +33,14 @@
 }
 
 .onboarding-container input[type="text"]:focus {
-  border-color: #0070f3;
+  border-color:hsl(212, 100.00%, 47.60%);
   outline: none;
 }
 
 .onboarding-container button {
   width: 100%;
   padding: 10px;
-  background-color: #0070f3;
+  background-color:hsl(212, 100.00%, 47.60%);
   color: white;
   border: none;
   border-radius: 4px;
@@ -50,7 +50,7 @@
 }
 
 .onboarding-container button:hover {
-  background-color: #005bb5;
+  background-color:hsl(210, 100.00%, 35.50%);
 }
 
 .onboarding-container p {

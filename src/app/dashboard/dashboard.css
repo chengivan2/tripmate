@@ -1,10 +1,10 @@
 .dashboard-container {
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: hsl(0, 0%, 98%);
 }
 
 .dashboard-title {
-  color: #4caf50;
+  color: hsl(122, 39%, 49%);
   text-align: center;
 }
 
@@ -22,14 +22,14 @@
 .trip-card {
   width: 30%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid hsl(0, 0%, 80%);
   border-radius: 5px;
-  background-color: #ffeb3b;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: hsl(54, 100%, 62%);
+  box-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.1);
 }
 
 .trip-card h2 {
-  color: #ff9800;
+  color: hsl(36, 100%, 50%);
 }
 
 .trip-card ul {
